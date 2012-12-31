@@ -4,7 +4,7 @@
         Console.Write("Enter number of terms: ")
         Dim t As Integer = Console.ReadLine()
         If (t >= 93) Then
-            Console.WriteLine("WARNING: A value of 93 or more will cause the b long unsigned integer to overflow, which causes security threats and also, it will" +
+            Console.WriteLine("WARNING: A value of 93 or more will cause the long unsigned integer to overflow, which causes security threats and also, it will" +
                               " break the program.")
             Console.WriteLine("Press Enter to continue with this disaster, you monster...")
             Console.ReadLine()
